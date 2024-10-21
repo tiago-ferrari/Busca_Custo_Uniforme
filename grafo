@@ -1,0 +1,19 @@
+grafo = {
+    'entrada_ifc_alt': {'canto_galpao_maq': 168, 'entrada_salas_2': 113, 'estacionamento': 52},
+    'canto_galpao_maq': {'entrada_ifc_alt': 168, 'laboratorios': 102, 'circulo': 93, 'entrada_salas_2': 78},
+    'laboratorios': {'canto_galpao_maq': 102, 'auditorio': 83, 'circulo': 58},
+    'auditorio': {'laboratorios': 83, 'mini_auditorio': 55},
+    'mini_auditorio': {'auditorio': 55, 'biblioteca': 53, 'entrada_salas_1': 75, 'pedagogico': 99},
+    'biblioteca': {'mini_auditorio': 53, 'pedagogico': 92, 'cantina': 70},
+    'cantina': {'biblioteca': 70, 'pedagogico': 60, 'entrada_salas_1': 90, 'refeitorio': 187, 'bancos_lago': 155},
+    'refeitorio': {'cantina': 187, 'ginasio': 120},
+    'ginasio': {'refeitorio': 120, 'bancos_lago': 150},
+    'bancos_lago': {'cantina': 155, 'ginasio': 150, 'guarita': 65},
+    'guarita': {'bancos_lago': 65, 'entrada_salas_1': 120, 'pedagogico': 130, 'administrativo': 51, 'estacionamento': 36},
+    'estacionamento': {'guarita': 36, 'administrativo': 35, 'entrada_ifc_alt': 52},
+    'administrativo': {'estacionamento': 35, 'guarita': 51, 'entrada_salas_1': 52},
+    'entrada_salas_1': {'guarita': 120, 'entrada_salas_2': 85, 'circulo': 58, 'pedagogico': 42, 'administrativo': 52, 'cantina': 90, 'mini_auditorio': 75},
+    'entrada_salas_2': {'entrada_ifc_alt': 113, 'canto_galpao_maq': 78, 'entrada_salas_1': 85, 'circulo': 70}
+    'circulo': {'laboratorio': 58, 'canto_galpao_maq': 93, 'entrada_salas_2': 70, 'entrada_salas_1': 58}
+    'pedagogico': {'mini_auditorio': 99, 'biblioteca': 92, 'cantina': 60, 'guarita': 130, 'entrada_salas_1': 42}
+}
